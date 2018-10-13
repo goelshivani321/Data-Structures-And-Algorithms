@@ -1,0 +1,56 @@
+/Users/shivanigoel/CLionProjects/Assignment10x/cmake-build-debug/Assignment10x
+Expression? -5=
+-5
+
+Expression? +5=
+5
+
+Expression? -5*3=
+-15
+
+Expression? -2*3=
+-6
+
+Expression? 4*(-5*2)=
+-40
+
+Expression? 4*(-5+2)=
+-12
+
+Expression? -(2+3)=
+-5
+
+Expression? 5+(-3)=
+2
+
+Expression? 6--3=
+9
+
+Expression? 3*-2=
+-6
+
+Expression? 3/+2=
+1.5
+
+Expression? 2^3=
+8
+
+Expression? 2^3^4=
+2.41785e+24
+
+Expression? (2^3)^4=
+4096
+
+Expression? 64^0.5=
+8
+
+Expression? 256^(1/4)=
+4
+
+Expression? 256^(-1/4)=
+0.25
+
+Expression? .
+
+Done!
+Process finished with exit code 0

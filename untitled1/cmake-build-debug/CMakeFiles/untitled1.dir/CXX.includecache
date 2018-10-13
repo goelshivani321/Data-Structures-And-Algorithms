@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shivanigoel/CLionProjects/untitled1/CDAccount.cpp
+CDAccount.h
+/Users/shivanigoel/CLionProjects/untitled1/CDAccount.h
+
+/Users/shivanigoel/CLionProjects/untitled1/CDAccount.h
+
+/Users/shivanigoel/CLionProjects/untitled1/main.cpp
+iostream
+-
+stdio.h
+-
+string
+-
+CDAccount.h
+/Users/shivanigoel/CLionProjects/untitled1/CDAccount.h
+stdio.h
+-
+

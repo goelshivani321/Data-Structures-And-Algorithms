@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shivanigoel/CLionProjects/assignment4/main.cpp
+iostream
+-
+iomanip
+-
+mpir.h
+-
+stdlib.h
+-
+string.h
+-
+chrono
+-
+fstream
+-
+
+/usr/local/include/mpir.h
+stddef.h
+-
+stdarg.h
+-
+cstddef
+-
+iosfwd
+-
+cstdio
+-
+stddef.h
+-
+

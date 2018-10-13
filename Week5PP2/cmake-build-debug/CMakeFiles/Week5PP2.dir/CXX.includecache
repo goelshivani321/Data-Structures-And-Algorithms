@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shivanigoel/CLionProjects/Week5PP2/VacuumBug.cpp
+VacuumBug.h
+/Users/shivanigoel/CLionProjects/Week5PP2/VacuumBug.h
+
+/Users/shivanigoel/CLionProjects/Week5PP2/VacuumBug.h
+
+/Users/shivanigoel/CLionProjects/Week5PP2/main.cpp
+iostream
+-
+vector
+-
+VacuumBug.h
+/Users/shivanigoel/CLionProjects/Week5PP2/VacuumBug.h
+

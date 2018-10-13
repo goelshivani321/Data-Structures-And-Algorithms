@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/NastyPuzzle.dir/main.cpp.o CMakeFiles/NastyPuzzle.dir/Thing.cpp.o  -o NastyPuzzle 

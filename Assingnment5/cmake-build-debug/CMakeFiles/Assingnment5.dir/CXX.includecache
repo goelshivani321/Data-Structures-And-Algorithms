@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shivanigoel/CLionProjects/Assingnment5/RomanNumeral.cpp
+iostream
+-
+cmath
+-
+RomanNumeral.h
+/Users/shivanigoel/CLionProjects/Assingnment5/RomanNumeral.h
+
+/Users/shivanigoel/CLionProjects/Assingnment5/RomanNumeral.h
+string
+-
+
+/Users/shivanigoel/CLionProjects/Assingnment5/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+RomanNumeral.h
+/Users/shivanigoel/CLionProjects/Assingnment5/RomanNumeral.h
+

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shivanigoel/CLionProjects/Week6PP3/main.cpp
+path.h
+/Users/shivanigoel/CLionProjects/Week6PP3/path.h
+
+/Users/shivanigoel/CLionProjects/Week6PP3/path.cpp
+path.h
+/Users/shivanigoel/CLionProjects/Week6PP3/path.h
+vector
+-
+
+/Users/shivanigoel/CLionProjects/Week6PP3/path.h
+vector
+-
+iostream
+-
+point.h
+/Users/shivanigoel/CLionProjects/Week6PP3/point.h
+
+/Users/shivanigoel/CLionProjects/Week6PP3/point.cpp
+iostream
+-
+point.h
+/Users/shivanigoel/CLionProjects/Week6PP3/point.h
+
+/Users/shivanigoel/CLionProjects/Week6PP3/point.h
+

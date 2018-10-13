@@ -1,0 +1,46 @@
+Timed insertions
+----------------
+      Lines:    865
+ Characters: 43,976
+      Words:  7,541
+
+Vector size: 1,138
+   Map size: 1,138
+
+Vector total insertion time: 65,465 usec
+   Map total insertion time:  9,970 usec
+
+Spot checks of word counts
+--------------------------
+amendment: vector:35 map:35
+article: vector:28 map:28
+ballot: vector:5 map:5
+citizens: vector:18 map:18
+congress: vector:60 map:60
+constitution: vector:25 map:25
+democracy: vector:(not found) map:(not found)
+electors: vector:16 map:16
+government: vector:8 map:8
+law: vector:39 map:39
+legislature: vector:13 map:13
+people: vector:9 map:9
+president: vector:121 map:121
+representatives: vector:29 map:29
+right: vector:14 map:14
+trust: vector:4 map:4
+united: vector:85 map:85
+vice: vector:36 map:36
+vote: vector:16 map:16
+
+Checking concordance versions
+-----------------------------
+Both match!
+
+Timed searches (100,000 searches)
+--------------
+Vector total search time: 448,399 usec
+   Map total search time: 257,411 usec
+
+Done!
+
+Process finished with exit code 0

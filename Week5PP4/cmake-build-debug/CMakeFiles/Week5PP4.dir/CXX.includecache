@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shivanigoel/CLionProjects/Week5PP4/SpiralBug.cpp
+SpiralBug.h
+/Users/shivanigoel/CLionProjects/Week5PP4/SpiralBug.h
+
+/Users/shivanigoel/CLionProjects/Week5PP4/SpiralBug.h
+
+/Users/shivanigoel/CLionProjects/Week5PP4/main.cpp
+iostream
+-
+vector
+-
+SpiralBug.h
+/Users/shivanigoel/CLionProjects/Week5PP4/SpiralBug.h
+

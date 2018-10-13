@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shivanigoel/CLionProjects/Week5PP3/BoxBug.cpp
+BoxBug.h
+/Users/shivanigoel/CLionProjects/Week5PP3/BoxBug.h
+
+/Users/shivanigoel/CLionProjects/Week5PP3/BoxBug.h
+
+/Users/shivanigoel/CLionProjects/Week5PP3/main.cpp
+iostream
+-
+vector
+-
+BoxBug.h
+/Users/shivanigoel/CLionProjects/Week5PP3/BoxBug.h
+

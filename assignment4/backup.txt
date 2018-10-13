@@ -1,0 +1,173 @@
+#include <iostream>
+#include <iomanip>
+#include <mpir.h>
+#include <stdlib.h>
+#include <string.h>
+#include <chrono>
+#include <cmath>
+
+using namespace std;
+using namespace std::chrono;
+
+const int MAX_ITERATIONS = 5;
+const int PLACES         = 1000;        // desired decimal places
+const int PRECISION      = PLACES + 1;  // +1 for the digit 3 before the decimal
+
+const int BASE       = 10;  // base 10 numbers
+const int BIT_COUNT  = 8;   // bits per machine word
+
+const int BLOCK_SIZE = 10;                // print digits in blocks
+const int LINE_SIZE  = 100;               // digits to print per line
+const int LINE_COUNT = PLACES/LINE_SIZE;  // lines to print
+const int GROUP_SIZE = 5;                 // line grouping size
+
+/***** Complete this file. *****/
+
+
+
+int main (void) {
+    mpz_t a,   d,part1,a0,y0,ypow,base,part2,part3,ynum,ydem,ynew;
+    mpf_t root2,c,b;
+    mpz_t part4,part5,part6,part7,part8,part9,part10,part11,part12,part13,anew;
+    int second,fourth;
+    mpz_init (a); mpf_init (b); mpf_init (c); mpz_init (d);mpf_init(root2);
+    mpz_init(part1);mpz_init(a0);mpz_init(y0);mpz_init(ypow);mpz_init(ynew);
+    mpz_init(part2);mpz_init(part3);mpz_init_set(ynum,ydem);
+    mpz_init_set(part4,part5);mpz_init_set(part6,part7);
+    mpz_init_set(part8,part9); mpz_init_set(part10,anew);
+    mpz_init_set(part11,part12); mpz_init(part13);
+    second=2;
+    fourth=4;
+   // mpz_init_set(a,b,c,d,root2);
+
+    mpz_set_str (a, "1", BASE);
+    mpf_set_str (b, "2", BASE);
+    mpf_set_str (c, "4", BASE);
+    mpz_set_str (d, "6", BASE);
+    mpz_set_str (base, "10", BASE);
+
+
+    mpf_sqrt(root2,b);
+
+    printf ("Value of root2 "); mpf_out_str (stdout, 10,100,root2);
+    /*mpz_mul(part1,c,root2);
+    printf ("Value of part1 "); mpz_out_str (stdout, 10,part1);
+    // storing value of a0 6-4*root2
+    mpz_sub(a0,d,part1);
+    printf ("Value of a0 "); mpz_out_str (stdout, 10,a0);
+    cout<<"flag A : \n";
+    // storing value of y0 ie root2-1
+    mpz_sub(y0,root2,a);
+    printf ("Value of y0 "); mpz_out_str (stdout, 10,y0);
+    for(int i=1;i<=MAX_ITERATIONS;i++)
+    {
+        cout<<"FLAG B : "<<i<<"\n";
+        mpz_pow_ui(ypow,base,fourth);
+
+        //printf ("Value of ypow "); mpz_out_str (stdout, 10,ypow);
+        mpz_sub(part2,a,ypow);
+       // cout<<"FLAG B here\n";
+       // printf ("Value of part2 "); mpz_out_str (stdout, 10,part2);
+
+        mpz_root(part3,part2,fourth);
+
+       // cout<<"After part3 \n";
+        mpz_sub(ynum,a,part3);
+//        cout<<"After part3 \n";
+        mpz_add(ydem,a,part3);
+        cout<<"After part3 \n";
+        mpz_div(ynew,ynum,ydem);
+
+        cout<<"After part3 \n";
+        //set value of ynew to y0
+        mpz_set(y0,ynew);
+
+        //working on value of a
+        //1+yi : part4
+        mpz_add(part4,a,ynew);
+        //(1+yi)^4:part5
+        mpz_pow_ui(part5,base,fourth);
+        //a(i-1) * (1+yi)^4 : part6
+        mpz_mul(part6,a0,part5);
+
+        //2^2i+3: part7
+        mpz_pow_ui(part7,base,2*i+3);
+
+        //ynew^2:part8
+        mpz_pow_ui(part8,base,second);
+
+        //1+ynew+ynew^2 :part9
+        mpz_add(part9,part4,part9);
+
+        //y(1+y+y2) : part10
+        mpz_mul(part10,ynew,part9);
+
+        //2^2i+3*y*(1+y+y2) : part11
+        mpz_mul(part11,part10,part7);
+
+        //a (1+y)4-22i+1y(1+y+y2): anew
+        mpz_sub(anew,part6,part11);
+
+        //set value of a0 to anew
+        mpz_set(a0,anew);
+
+    }
+
+    cout<<"FLAG C :\n";
+    printf ("Value of root2 "); mpz_out_str (stdout, 10, anew);
+    printf (" Vabue of a ");   mpz_out_str (stdout, 10, b);
+    printf (" is ");    mpz_out_str (stdout, 10, c);
+    putchar ('\n');
+     */
+
+
+    mpz_clear(a);
+    mpz_clear(a0);
+    mpz_clear(y0);
+    mpf_clear(b);
+    mpf_clear(c);
+    mpz_clear(d);
+    mpf_clear(root2);
+    mpz_clear(ypow);
+    mpz_clear(part2);
+    mpz_clear(part3);
+    mpz_clear(ynew);
+    mpz_clear(ynum);
+    mpz_clear(ydem);
+    mpz_clear(part4);
+    mpz_clear(part5);
+    mpz_clear(part6);
+    mpz_clear(part7);
+    mpz_clear(part8);
+    mpz_clear(part9);
+    mpz_clear(part10);
+    mpz_clear(part11);
+    mpz_clear(anew);
+    mpz_clear(part1);
+
+    return 0;
+}
+----------------------
+ mpf_init2(a, 2000);
+    mpf_init2(b, 2000);
+
+    mpf_set_str(a, "4", 10);
+    mpf_sqrt(b, a);
+
+    printf ("SQRT of "); mpf_out_str (stdout, 10, 1000, a);
+    printf (" is ");    mpf_out_str (stdout, 10, 100, b);
+    putchar ('\n');
+
+    mpf_set_str(a, "2", 10);
+    mpf_sqrt(b, a);
+
+    printf ("SQRT of "); mpf_out_str (stdout, 10, 100, a);
+    printf (" is ");    mpf_out_str (stdout, 10, 1000, b);
+    putchar ('\n');
+
+    mpf_set_str(a, "25", 10);
+    mpf_sqrt(b, a);
+
+    printf ("SQRT of "); mpf_out_str (stdout, 10, 100, a);
+    printf (" is ");    mpf_out_str (stdout, 10, 100, b);
+    putchar ('\n');

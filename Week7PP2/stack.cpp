@@ -1,0 +1,76 @@
+#include <stdexcept>
+#include "stack.h"
+using namespace std;
+
+int StackFrame::frames = 0;
+
+int Stack::stacks = 0;
+
+Stack::Stack() : top(nullptr)
+{
+    stacks++;
+}
+
+Stack::~Stack()
+{
+    while (!empty()) pop();
+}
+
+Stack::Stack(const Stack& other)
+{
+    stacks++;
+
+    top= nullptr;
+
+    StackFrame *cur=other.top;
+    while(cur!=nullptr)
+    {
+        StackFrame* new_frame = new StackFrame();
+        new_frame->data = cur->data;
+        new_frame->link = top;
+        top = new_frame;
+        cur=cur->link;
+
+    }
+//Code to reverse a linked list
+    StackFrame *current,*prev,*next;
+    current=top;
+    prev= nullptr;
+    while(current!= nullptr)
+    {
+        next=current->link;
+        current->link=prev;
+        prev=current;
+        current=next;
+    }
+    top=prev;
+
+}
+
+bool Stack::empty() const
+{
+    return top == nullptr;
+}
+
+void Stack::push(string s)
+{
+    StackFrame* new_frame = new StackFrame();
+    new_frame->data = s;
+    new_frame->link = top;
+    top = new_frame;
+}
+
+string Stack::pop()
+{
+    if (empty()) throw logic_error("Popping empty stack");
+
+    string result = top->data;
+
+    StackFrame *temp_ptr;
+    temp_ptr = top;
+    top = top->link;
+
+    delete temp_ptr;
+
+    return result;
+}

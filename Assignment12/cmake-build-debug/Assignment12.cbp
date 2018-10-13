@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assignment12"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment12">
+				<Option output="/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Assignment12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment12"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment12/fast">
+				<Option output="/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Assignment12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment12/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/shivanigoel/CLionProjects/Assignment12/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/DataAllZeros.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/DataAllZeros.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/DataGenerator.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/DataGenerator.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/DataRandom.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/DataRandom.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/DataReverseSorted.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/DataReverseSorted.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/DataSorted.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/DataSorted.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/Element.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/Element.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/InsertionSort.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/InsertionSort.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/LinkedList.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/LinkedList.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/ListSorter.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/ListSorter.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/MergeSort.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/MergeSort.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/Node.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/Node.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/QuickSortOptimal.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/QuickSortOptimal.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/QuickSortSuboptimal.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/QuickSortSuboptimal.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/QuickSorter.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/QuickSorter.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/SelectionSort.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/SelectionSort.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/ShellSortOptimal.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/ShellSortOptimal.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/ShellSortSuboptimal.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/ShellSortSuboptimal.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/Sorter.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/Sorter.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/VectorSorter.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/VectorSorter.h">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/main.cpp">
+			<Option target="Assignment12"/>
+		</Unit>
+		<Unit filename="/Users/shivanigoel/CLionProjects/Assignment12/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

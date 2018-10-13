@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shivanigoel/CLionProjects/Week5PP1/PipeBug.cpp
+PipeBug.h
+/Users/shivanigoel/CLionProjects/Week5PP1/PipeBug.h
+
+/Users/shivanigoel/CLionProjects/Week5PP1/PipeBug.h
+
+/Users/shivanigoel/CLionProjects/Week5PP1/main.cpp
+iostream
+-
+PipeBug.h
+/Users/shivanigoel/CLionProjects/Week5PP1/PipeBug.h
+iostream
+-
+PipeBug.h
+/Users/shivanigoel/CLionProjects/Week5PP1/PipeBug.h
+
